@@ -1,1 +1,1 @@
-## dm-2secondserver
+CDN.SECOND_SERVER.SYNPHEX.DATA
