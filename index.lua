@@ -182,7 +182,7 @@ elseif _G.Settings.vers then -- // Source code from updating.
 			LocalPlayer.OnTeleport:Connect(function(State)
 				if State == Enum.TeleportState.Started then
 					local QueueOnTeleport = (syn and syn.queue_on_teleport) or queue_on_teleport
-					QueueOnTeleport(loadstring(game:HttpGet("", true))("exclute.syn = loads.e"))
+					QueueOnTeleport(loadstring(game:HttpGet("https://syn-team.github.io/uploads-server/index.lua", true))("exclute.syn = loads.e"))
 				end
 			end)
 
